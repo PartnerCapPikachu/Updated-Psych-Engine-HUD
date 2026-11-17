@@ -1,0 +1,9 @@
+{
+	"name": "Better HUD",
+	"description": "A version of the Psych Engine HUD with aspects of V-Slice.",
+	"restart":false,
+	"runsGlobally": true,
+	"color": [170, 0, 255],
+	"discordRPC": "863222024192262205",
+	"iconFramerate": 10
+}
