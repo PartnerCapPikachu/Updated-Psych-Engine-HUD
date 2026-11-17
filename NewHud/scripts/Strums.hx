@@ -1,5 +1,6 @@
 using StringTools;
 
+//strum position code by @moonicatalyst (Discord)
 var strumPositionOffset:Int = 100;
 function onCountdownStarted()
 {
