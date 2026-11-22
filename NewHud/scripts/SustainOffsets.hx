@@ -9,7 +9,7 @@ function onCreatePost()
       note.scale.set(.7, .7);
       if (!note.animation.name.endsWith('end'))
       {
-        note.setGraphicSize(note.width, Conductor.getBPMFromSeconds(note.parent.strumTime + FlxMath.EPSILON).stepCrochet * .45 * songSpeed / playbackRate);
+        note.scale.y = (Conductor.getBPMFromSeconds(note.parent.strumTime + FlxMath.EPSILON).stepCrochet * .45 * game.songSpeed / game.playbackRate) / note.frameHeight;
         note.updateHitbox();
       }
       else
